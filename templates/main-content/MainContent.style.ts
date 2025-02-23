@@ -5,11 +5,12 @@ export const MainContent = styled.main`
   font-family: 'Barlow', sans-serif;
   background-color: #252836;
   height: 100vh;
+  padding: 24px;
 `;
 
 export const MainContentContainer = styled.section`
   margin-left: 116px;
-  width: calc(100% - 116px); 
+  width: calc(100% - 116px);
   height: 100vh;
   background-color: #252836;
 `;
