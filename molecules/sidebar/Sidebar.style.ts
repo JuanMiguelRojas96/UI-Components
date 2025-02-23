@@ -6,7 +6,7 @@ export const SidebarContainer = styled.aside`
   left: 0;
   height: 100vh;
   padding-left: 12px;
-  background-color: #1f1d2b;
+  background-color: var(--primary-gray);
   border-radius: 0 20px 20px 0;
 `;
 

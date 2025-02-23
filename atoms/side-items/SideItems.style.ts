@@ -22,13 +22,13 @@ export const NavItem = styled.div<{ isActive?: boolean }>`
   ${({ isActive }) =>
     isActive &&
     `
-    background-color: #252836;
+    background-color: var(--secondary-gray);
     `}
 `;
 
 export const NavItemLogo = styled.div<{ isActive?: boolean }>`
   path {
-    fill: ${({ isActive }) => (isActive ? "#fff" : "#EA7C69")};
+    fill: ${({ isActive }) => (isActive ? 'var(--primary-white)' : 'var(--primary-orange)')};
   }
   `;
 
@@ -42,15 +42,15 @@ export const NavItemWrapper = styled.div<{ isActive?: boolean }>`
   ${({ isActive }) =>
     isActive &&
   `
-    box-shadow: 0px 0px 24px #ea7c69;
-    background-color: #EA7C69;
+    box-shadow: 0px 0px 24px var(--primary-orange);
+    background-color: var(--primary-orange);
   `}
 
   &:hover {
-    background-color: #EA7C69;
-    box-shadow: 0px 8px 24px #ea7c69;
+    background-color: var(--primary-orange);
+    box-shadow: 0px 0px 24px var(--primary-orange);
     path {
-      fill: #fff;
+      fill: var(--primary-white);
     }
   }
 `;
