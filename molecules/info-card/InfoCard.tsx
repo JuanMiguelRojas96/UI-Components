@@ -2,7 +2,7 @@ import React from 'react'
 import SvgIcon from '../../atoms/icon/SvgIcon'
 import { InfoCardContainer, InfoCardCuantity, InfoCardDescription, InfoCardTitle } from './InfoCard.style'
 
-interface InfoCardProps {
+export interface InfoCardProps {
   icon : string,
   title : string,
   cuantity : number,

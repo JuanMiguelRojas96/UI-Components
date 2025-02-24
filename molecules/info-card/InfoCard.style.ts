@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const InfoCardContainer = styled.article`
   display: flex;
   flex-direction: column;
-  width: 200px;
+  min-width: 12.5rem;
   min-height: 150px;
   background-color: var(--primary-gray);
   border-radius: 8px;
